@@ -1,0 +1,91 @@
+#header {
+
+    background: #006241;
+    color: #f6fff7fd;
+}
+
+#head {
+
+    color: #f6fff7fd !important;
+}
+
+
+.theme-toggle svg.theme-icon-when-auto,
+.theme-toggle svg.theme-icon-when-dark,
+.theme-toggle svg.theme-icon-when-light {
+    fill: var(--header-link-color);
+    color: #006241 !important;
+}
+
+
+
+.module h2 {
+
+    background-color: #027a52;
+}
+
+
+
+
+
+.module caption,
+.inline-group h2 {
+
+    background-color: #027a52 !important;
+}
+
+div.breadcrumbs {
+
+    background-color: #027a52 !important;
+    color: #f6fff7fd !important;
+
+
+}
+
+
+a:link,
+a:visited {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.15s, background 0.15s;
+}
+
+
+
+
+
+
+
+html[data-theme="light"],
+:root {
+
+    --button-bg: #006241;
+    --button-hover-bg: #027a52;
+    --body-bg: #f6fff7fd;
+
+}
+
+#changelist .actions .button,
+#toolbar form input[type="submit"],
+.selector .selector-available h2,
+.selector-chosen h2 {
+    background-color: #027a52 !important;
+    color: #f6fff7fd !important;
+}
+
+.button,
+input[type=submit] {
+
+    background-color: #027a52 !important;
+}
+
+.login .form-row #id_username {
+
+    background-color: #f6fff7fd !important;
+}
+
+.login .form-row #id_password {
+
+    background-color: #f6fff7fd !important;
+
+}
